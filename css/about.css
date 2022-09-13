@@ -1,0 +1,66 @@
+body{
+    background-image: url("../images/about/5-people_med-students-walkin-in-hospital_landscape.jpg__750x325_q85_crop-smart_subsampling-2_upscale@2x.jpg");
+    backdrop-filter: blur(2px);
+    animation: backgroundSlide 20s infinite;
+}
+
+main{
+    margin: 30px 20px 50px 20px;
+}
+
+main h1, h2 {
+    background: rgba(175, 58, 230, 0.8);
+    border-radius: 10px;
+    filter: blur(0px);
+    text-align: center;
+}
+
+.h2-p-content-wrapper{
+    padding:30px;
+    font-size: 21px;
+}
+
+
+@media (min-width: 990px) {
+    .title-h2-wrapper {
+        width: 100px;
+        min-width: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .h2-p-content-wrapper {
+        width: 500px;
+        margin: 30px 10px;
+    }
+}
+
+@keyframes backgroundSlide {
+    0% {
+        background-image: url("../images/about/5-people_med-students-walkin-in-hospital_landscape.jpg__750x325_q85_crop-smart_subsampling-2_upscale@2x.jpg")
+    }
+
+    10% {
+        background-image: url("../images/about/5-people_med-students-walkin-in-hospital_landscape.jpg__750x325_q85_crop-smart_subsampling-2_upscale@2x.jpg");
+    }
+
+    20% {
+        background-image: url("../images/about/istockphoto-1271328839-612x612.jpg");
+        backdrop-filter: blur(2px);
+    }
+
+    40% {
+        background-image: url("../images/about/Med-Students.jpg");
+        backdrop-filter: blur(2px);
+    }
+
+    60% {
+        background-image: url("../images/about/med-student-diversity-fb.jpg");
+        backdrop-filter: blur(2px);
+    }
+
+    80% {
+        background-image: url("../images/about/Reviewtipsformedicalstudents_Image-1109x675.jpg")
+    }
+}

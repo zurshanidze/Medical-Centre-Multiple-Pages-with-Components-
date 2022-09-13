@@ -1,0 +1,96 @@
+body {
+    background-image: url("../images/services/Healthcare-Machine-Learning.png");
+    backdrop-filter: blur(2px);
+    animation: backgroundSlide 20s infinite;
+}
+
+main{
+    margin: 30px 20px 50px 20px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.title-h2-wrapper{
+    min-width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2-p-content-wrapper {
+    min-width: 250px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: rgba(66, 164, 245, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-p-content-wrapper h2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background: rgb(29, 135, 206);
+}
+
+.h2-p-content-wrapper p{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+@media (min-width: 990px) {
+    .title-h2-wrapper {
+        background: rgb(25, 122, 187);
+        width: fit-content;
+        min-width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .h2-p-content-wrapper {
+        width: 300px;
+        background: rgba(66, 164, 245, 0.8);
+        margin: 30px 10px;
+        padding: 0 20px;
+    }
+
+    .h2-p-content-wrapper p {
+        font-size: 18px;
+    }
+}
+
+
+
+@keyframes backgroundSlide {
+    0%{
+        background-image: url("../images/services/Healthcare-Machine-Learning.png")
+    }
+    10%{
+        background-image: url("../images/services/Healthcare-Machine-Learning.png")
+    }
+    20%{
+        background-image: url("../images/services/Digital-Transformation-in-Healthcare-The-Evolving-Landscape-Updated.png"); 
+        backdrop-filter: blur(4px);
+    }
+    40%{
+        background-image: url("../images/services/doctor-wearing-face-mask-stethoscope-and-blue-gloves-writing-on-clipboard-on-a-blue-background-photo.jpg");
+        backdrop-filter: blur(2px);
+    }
+    60%{
+        background-image: url("../images/services/nurse.jpg");
+        backdrop-filter: blur(2px);
+    }
+    80%{
+        background-image: url("../images/services/shutterstock_390198256.jpg")
+    }
+}

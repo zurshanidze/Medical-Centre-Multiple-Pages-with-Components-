@@ -1,0 +1,93 @@
+body {
+    /* background-image: url("../images/supplements/MedicalCenterPharmacy_VitaminsHR.jpg"); */
+    backdrop-filter: blur(2px);
+    animation: backgroundSlide 20s infinite;
+}
+
+main {
+    margin: 30px 20px 50px 20px;
+}
+
+main h1, h2 {
+    margin-bottom: 20px;
+    background: rgba(39, 134, 197, 0.8);
+    text-align: center;
+}
+
+.title-h2-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2-p-content-wrapper {
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: rgba(150, 149, 148, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-p-content-wrapper h2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background: rgb(8, 106, 235);
+}
+
+.h2-p-content-wrapper p {
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+@media (min-width: 990px) {
+    .title-h2-wrapper {
+        width: fit-content;
+        min-width: 30%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .h2-p-content-wrapper {
+        width: 700px;
+        padding: 0 20px;
+    }
+}
+
+
+@keyframes backgroundSlide {
+    0% {
+        background-image: url("../images/supplements/R656ab58e3be49aef63802ad1f76d4d0d.jpg")
+    }
+
+    20% {
+        background-image: url("../images/supplements/Supplementing-a-busy-lifestyle-More-Singaporeans-relying-on-vitamins-and-supplements.jpg")
+    }
+
+    40% {
+        background-image: url("../images/supplements/MedicalCenterPharmacy_VitaminsHR.jpg ");
+        /* backdrop-filter: blur(4px); */
+    }
+
+    60% {
+        background-image: url("../images/supplements/supplements.jpg");
+        /* backdrop-filter: blur(2px); */
+    }
+
+    80% {
+        background-image: url("../images/supplements/Multivitamins-neither-help-nor-hinder-heart-risk-finds-study.jpg");
+        /* backdrop-filter: blur(2px); */
+    }
+
+    100% {
+        background-image: url("../images/supplements/R656ab58e3be49aef63802ad1f76d4d0d.jpg")
+    }
+}

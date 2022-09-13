@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="#">
+  <link rel="apple-touch-icon" href="./images/favicon/medical-centre-icon.png">
+  <link rel="icon" type="image/x-icon" href="./images/favicon/medical-centre-icon.png">
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  <title>Medical Centre</title>
+</head>
+
+<body>
+
+  <template id="day-night-mode"></template>
+  <header-component id="header-component" class="header-component"></header-component>
+  <div id="loader">
+
+      <div id="text-wrapper">
+        <h3 id="header-title" class="header-title">Health is a State of Complete Harmony of The Body</h3>
+        <img id="pulse" src="https://icon-library.com/images/pulse-icon-png/pulse-icon-png-3.jpg" />
+        <h5 id="text"></h5>
+      </div>
+
+    </div>
+  
+    <div id="capsule-wrapper5" class="capsule-wrapper5" class="day-night-mode" class="capsule-wrapper">
+    
+      <div class="sun-container" id="sun-container">
+        <div class="sun" id="sun"></div>
+        <div class="on-container">
+          <p class="on">light</p>
+        </div>
+      </div>
+    
+      <div class="moon-container" id="moon-container">
+        <div class="moon" id="moon">
+          <span class="moon-circle" id="cir1"></span>
+          <span class="moon-circle" id="cir2"></span>
+          <span class="moon-circle" id="cir3"></span>
+          <span class="moon-circle" id="cir4"></span>
+          <span class="moon-circle" id="cir5"></span>
+          <span class="moon-circle" id="cir6"></span>
+          <span class="moon-circle" id="cir7"></span>
+        </div>
+        <div class="off-container">
+          <p class="off">dark</p>
+        </div>
+      </div>
+    
+    </div>
+  
+  <main id="main">
+    <h3 id="greetingText" class="greetingText"></h3>
+
+    <div id="circle-container" class="circle-container">
+      <div id="circle1" class="circle1">
+        <img class="heart" src="https://freesvg.org/img/anatomical_heart.png" />
+      </div>
+    </div>
+    <div id="btn-wrapper">
+      <button id="play-pause">Play / Pause</button>
+    </div>
+    
+    <day-night-component id="day-night-component" class="day-night-component"></day-night-component>
+  </main>
+  
+  <footer-component id="footer-component" class="footer-component"></footer-component>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

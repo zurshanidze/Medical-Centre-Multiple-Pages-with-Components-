@@ -1,0 +1,91 @@
+body {
+    background-image: url("../images/medical-tecnology/how-ai-vision-and-video-management-solutions-ensures-security-of-healthcare-facilities-featured.jpg");
+    backdrop-filter: blur(2px);
+    animation: backgroundSlide 20s infinite;
+}
+
+main{
+    margin: 30px 20px 50px 20px;
+}
+
+main h1{
+    margin-bottom: 20px;
+    background: rgba(76, 236, 124, 0.8);
+    text-align: center;
+}
+
+.title-h2-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2-p-content-wrapper {
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: rgba(76, 236, 124, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-p-content-wrapper h2 {
+    width: 80%;
+    text-align: center;
+    background: rgb(29, 206, 97);
+}
+
+.h2-p-content-wrapper p {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+@media (min-width: 990px) {
+    .title-h2-wrapper {
+        width: fit-content;
+        min-width: 30%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .h2-p-content-wrapper {
+        width: 700px;
+        padding: 0 20px;
+    }
+}
+
+
+@keyframes backgroundSlide {
+    0% {
+        background-image: url("../images/medical-tecnology/how-ai-vision-and-video-management-solutions-ensures-security-of-healthcare-facilities-featured.jpg")
+    }
+
+    10% {
+        background-image: url("../images/medical-tecnology/how-ai-vision-and-video-management-solutions-ensures-security-of-healthcare-facilities-featured.jpg ")
+    }
+
+    20% {
+        background-image: url("../images/medical-tecnology/59f59aa910d63.jpg"); 
+        /* backdrop-filter: blur(4px); */
+    }
+
+    40% {
+        background-image: url("../images/medical-tecnology/6678.jpg_wh860.jpg");
+        /* backdrop-filter: blur(2px); */
+    }
+
+    60% {
+        background-image: url("../images/medical-tecnology/Healthcare-1024x576.jpg");
+        /* backdrop-filter: blur(2px); */
+    }
+
+    80% {
+        background-image: url("../images/medical-tecnology/DNA-1260x840.jpg")
+    }
+}

@@ -1,0 +1,26 @@
+const footerTemplate = document.createElement('template');
+
+footerTemplate.innerHTML = `
+    <link rel="stylesheet" href="../style.css" />
+    <footer id="footer" class="footer">
+        <div class="copyright" id="copyright">
+        <h6>&copy COPYRIGHT 2022</h6>
+        <h5>Zura Shanidze</h5>
+        </div>
+    </footer>
+`
+
+
+class Footer extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    const shadowRoot = this.attachShadow({ mode: 'open' });
+
+    shadowRoot.appendChild(footerTemplate.content);
+  }
+}
+
+customElements.define('footer-component', Footer);

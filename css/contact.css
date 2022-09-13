@@ -1,0 +1,55 @@
+body {
+    /* background: #2770db; */
+    background-image: url("../images/contact/s960_IMG406-Medical-AFTD-Blog-02__002_.jpg");
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px 10px;
+}
+
+
+main h1, h2 {
+    background: rgba(76, 236, 124, 0.8);
+    text-align: center;
+}
+
+.contact-wrapper {
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: white;
+    background: rgba(50, 168, 82, 0.7);
+    backdrop-filter: blur(7px);
+}
+
+.contact-wrapper h1,
+.contact-wrapper h2 {
+    text-align: center;
+}
+
+.contact-wrapper h1,
+#email {
+    margin-bottom: 70px;
+}
+
+#mobile,
+#email {
+    text-align: left;
+    font-size: 21px;
+}
+
+.additionalInfo {
+    font-size: 20px;
+}
+
+
+@media (min-width: 990px) {
+    .contact-wrapper{
+        padding: 20px 20px;
+    }
+}
